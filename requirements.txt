@@ -3,12 +3,12 @@ discord.py==2.3.2
 Flask==3.0.2
 httpx==0.26.0
 licensing==0.43
-requests==2.31.0
+requests==2.32.3
 tls-client==1.0.1
 typing_extensions==4.10.0
 pymongo==4.6.1
 
-
+# FastAPI + pydantic + uvicorn that don't require Rust compiling
 fastapi==0.103.1
 pydantic==1.10.13
 uvicorn==0.22.0
