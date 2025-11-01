@@ -1,20 +1,20 @@
 
 discord:
-  token: "MTQzNDE2Njg3NDA5MzkxMjEzNw.GZygLS.9E_K1cSaeGtaFAIhxMRuO2Qn1bBAHy-niWofNs"
+  token: "MTQzNDE2Njg3NDA5MzkxMjEzNw.G2U-g9.FBMncXCcF5BeKzR_bezeLrFwqDBDaN4CjpFyBw"
   webhook_url: "https://discord.com/api/webhooks/1433474709449740451/-N-nTCcbar_Hr5_anoIgn4nEcSWUc16bWNQPCsv3vKK-k4hojv_2Wva3r-40u9QO2t2f"
   owners_ids:
     - "1434166607910801418"
   admin_role_ids:
     - "1434166607910801418"
-  status: ".gg/leak-hub - BoostBot"
+  status: ".gg/RocketBoosts - BoostBot"
 
 
 customizations:
   enable: true
   use_custom_pfp: false
   use_custom_banner: false
-  nick: ".gg/leak-hub"
-  bio: ".gg/leak-hub - BoostBot"
+  nick: ".gg/RocketBoosts"
+  bio: ".gg/RocketBoosts - BoostBot"
 
 
 autobuy:
@@ -56,3 +56,4 @@ extras:
     csolver_key: ""
     dchcaptcha_api_key: ""
     max_retries: 5
+
