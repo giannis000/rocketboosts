@@ -1,6 +1,6 @@
 
 discord:
-  token: "MTQzNDE2Njg3NDA5MzkxMjEzNw.G2U-g9.FBMncXCcF5BeKzR_bezeLrFwqDBDaN4CjpFyBw"
+  token: "MTQzNDE2Njg3NDA5MzkxMjEzNw.GpXAd9.rQXxKg3xYJEYCMQWDez1ZJMU2mMauCLTQroPSY"
   webhook_url: "https://discord.com/api/webhooks/1433474709449740451/-N-nTCcbar_Hr5_anoIgn4nEcSWUc16bWNQPCsv3vKK-k4hojv_2Wva3r-40u9QO2t2f"
   owners_ids:
     - "1434166607910801418"
@@ -56,4 +56,5 @@ extras:
     csolver_key: ""
     dchcaptcha_api_key: ""
     max_retries: 5
+
 
