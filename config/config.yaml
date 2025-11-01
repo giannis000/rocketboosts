@@ -1,0 +1,58 @@
+
+discord:
+  token: "MTQzNDE2Njg3NDA5MzkxMjEzNw.GZygLS.9E_K1cSaeGtaFAIhxMRuO2Qn1bBAHy-niWofNs"
+  webhook_url: "https://discord.com/api/webhooks/1433474709449740451/-N-nTCcbar_Hr5_anoIgn4nEcSWUc16bWNQPCsv3vKK-k4hojv_2Wva3r-40u9QO2t2f"
+  owners_ids:
+    - "1434166607910801418"
+  admin_role_ids:
+    - "1434166607910801418"
+  status: ".gg/leak-hub - BoostBot"
+
+
+customizations:
+  enable: true
+  use_custom_pfp: false
+  use_custom_banner: false
+  nick: ".gg/leak-hub"
+  bio: ".gg/leak-hub - BoostBot"
+
+
+autobuy:
+  use_autoboosting: true
+  max_retry_on_failure: 100
+  use_customization: true
+  advance_mode: true
+  proxyless: true
+  refresh_interval: 120
+  
+  sellpass:
+    api_key: ""
+    custom_field_name: "Invite"
+    boosts_success_note: "Boosts Successful! Thanks For Buying"
+    boosts_fail_note: "Boosts failed due to an error! Please make sure to join our server for support!"
+  
+  sellix:
+    invite_field_name: "Server Invite Link"
+    orders: ""
+  
+  sellapp:
+    enabled: true
+    invite_field_name: "Invite"
+    customisation:
+      enabled: true
+      nickname_field_name: "Nickname"
+      bio_field_name: "Bio"
+
+extras:
+  port: 1517
+  use_log: true
+  key: ""
+
+  captcha_solver:
+    solve_captcha: false
+    use: "capsolver"
+    hcoptcha_api_key: ""
+    capsolver_api_key: ""
+    csolver_key: ""
+    dchcaptcha_api_key: ""
+    max_retries: 5
