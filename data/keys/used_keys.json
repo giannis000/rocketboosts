@@ -1,0 +1,77 @@
+[
+    {
+        "key": "3cd5423b-9754-4f52-b1bb-796844a8edca",
+        "month": 3,
+        "amount": 14,
+        "invite": "https://discord.gg/HwxF3FJE",
+        "successful": 0,
+        "failed": 0,
+        "time_taken": 1.85
+    },
+    {
+        "key": "d668160d-6e8c-4d7d-a117-2d317155b995",
+        "month": 1,
+        "amount": 2,
+        "invite": "https://discord.gg/3sBApFXj",
+        "successful": 0,
+        "failed": 0,
+        "time_taken": 0.84,
+        "email": "bhaskar.op@outlook.com"
+    },
+    {
+        "key": "9db902b2-82a7-43ac-af72-63dacc379db6",
+        "month": 1,
+        "amount": 2,
+        "invite": "https://discord.gg/3sBApFXj",
+        "successful": 0,
+        "failed": 0,
+        "time_taken": 0.71,
+        "email": "bhaskarop@yopmail.com"
+    },
+    {
+        "key": "ff9ace88-2fba-4159-b2b1-f4dff28c6fff",
+        "month": 3,
+        "amount": 4,
+        "invite": "https://discord.gg/3sBApFXj",
+        "successful": 0,
+        "failed": 0,
+        "time_taken": 0.41,
+        "email": "bhaskar.op@outlook.com"
+    },
+    {
+        "key": "1m-zv7g-jj4l-8mhg",
+        "month": 1,
+        "amount": 2,
+        "invite": "https://discord.gg/xN5EcaR9",
+        "successful": 1,
+        "failed": 0,
+        "time_taken": 2.44,
+        "email": "doomsniper09@gmail.com",
+        "nickname": "",
+        "bio": ""
+    },
+    {
+        "key": "1m-5lrp-p3cc-hw8q",
+        "month": 1,
+        "amount": 2,
+        "invite": "https://discord.gg/CQSnX9XS",
+        "successful": 1,
+        "failed": 0,
+        "time_taken": 2.84,
+        "email": "eleni.ts001@gmail.com",
+        "nickname": "",
+        "bio": ""
+    },
+    {
+        "key": "1m-bto9-2rkt-fnf9",
+        "month": 1,
+        "amount": 2,
+        "invite": "https://discord.gg/umyKTxht",
+        "successful": 1,
+        "failed": 0,
+        "time_taken": 1.6,
+        "email": "eleni.ts001@gmail.com",
+        "nickname": "",
+        "bio": ""
+    }
+]
