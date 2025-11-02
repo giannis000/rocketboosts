@@ -1,14 +1,13 @@
 import threading
 import uvicorn
-import json
-import yaml
+import logging
 import os
 from pystyle import Colors, Colorate, Center
-import logging
-import sys
 from logger import info, warn, fail, success, debug
 
-
+# ====================
+# Logging Suppression
+# ====================
 logging.getLogger("discord.gateway").setLevel(logging.ERROR)
 logging.getLogger("discord.client").setLevel(logging.ERROR)
 logging.getLogger("discord.http").setLevel(logging.WARNING)
@@ -63,17 +62,11 @@ def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-def load_config():
-    try:
-        with open('config/config.yaml') as f:
-            return yaml.safe_load(f)
-    except FileNotFoundError:
-        print("Config file not found!")
-        return {"extras": {"port": 8080}}
-
+# ✅ No more config.yaml used
 def start_discord_bot():
     from bot import start_bot
-    start_bot()
+    start_bot()  # let bot.py manage the token, not config.yaml
+
 
 banner = """
 ██████╗  ██████╗  ██████╗ ███████╗████████╗    ██████╗  ██████╗ ████████╗
@@ -82,23 +75,24 @@ banner = """
 ██╔══██╗██║   ██║██║   ██║╚════██║   ██║       ██╔══██╗██║   ██║   ██║   
 ██████╔╝╚██████╔╝╚██████╔╝███████║   ██║       ██████╔╝╚██████╔╝   ██║   
 ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝   ╚═╝       ╚═════╝  ╚═════╝    ╚═╝   
-     OAUTH JOINER                          - Ð00M.py                          
+     API BOOST PANEL                          - Ð00M.py                          
 
 """
 
 def main():
-    config = load_config()
-    port = config.get("extras", {}).get("port", 8080)
-    print(Center.XCenter(Colorate.Vertical(color=Colors.cyan_to_blue, text=banner), spaces=15))
-    
+    print(Center.XCenter(Colorate.Vertical(color=Colors.magenta_to_blue, text=banner), spaces=15))
+
     configure_uvicorn_logging()
-    
+
+    # ✅ Start Discord bot (bot.py handles the token)
     bot_thread = threading.Thread(target=start_discord_bot)
     bot_thread.daemon = True
     bot_thread.start()
-    
+
+    # ✅ ALWAYS launch API from api.py, no config.yaml
     from api import app
-    uvicorn.run(app, host="0.0.0.0", port=port, log_level="info", log_config=None)
+    uvicorn.run(app, host="0.0.0.0", port=8080, log_level="info", log_config=None)
+
 
 if __name__ == "__main__":
     clear_console()
