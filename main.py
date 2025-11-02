@@ -80,7 +80,8 @@ banner = """
 """
 
 def main():
-    print(Center.XCenter(Colorate.Vertical(color=Colors.magenta_to_blue, text=banner), spaces=15))
+    print(Center.XCenter(Colorate.Vertical(color=Colors.purple_to_blue, text=banner), spaces=15))
+
 
     configure_uvicorn_logging()
 
